@@ -8,14 +8,31 @@ body{
     min-height: 5000px  ;
 } */
 header{
-    height: 50px;
+    height: 75px;
+}
+.a_nav a{
+    font-family: calibri;
 }
 main{
     height: 3120px;
 }
-/* footer{
-    height: 1800px;
-} */
+ul > li:hover{
+    background-color: #ebebeb;
+    border-radius: 8px;
+    height: 40px;
+    cursor: pointer;
+}
+.h_drop{
+    /* height: 100px; */
+    width: 100px;
+    background-color: white;
+    border-radius: 5px;
+    display: none;
+}
+.a_nav > li:hover ul{
+    display: block;
+}
+
 .footer1{
     height: 112px;
 }
