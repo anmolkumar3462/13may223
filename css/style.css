@@ -8,7 +8,7 @@ body{
     min-height: 5000px  ;
 } */
 header{
-    height: 75px;
+    height: 65px;
 }
 .a_nav a{
     font-family: calibri;
@@ -47,7 +47,8 @@ ul > li:hover{
 }
 
 
-@media (min-width: 1200px){
-    .container, .container-lg, .container-md, .container-sm, .container-xl {
-        max-width: 1315px;}
-}
+@media (min-width: 1400px){
+    .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+        max-width: 1450px;
+        }
+    }
